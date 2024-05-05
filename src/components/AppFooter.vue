@@ -18,7 +18,7 @@ export default{
       <div class="container">
         <div class="footer-content">
           <div class="copyright">
-            &copy; {{ year }} Created by: Miriam Evardi, Francesco Gioscia e Alessio Di Mari
+            &copy; {{ year }} Created by: Alessio Di Mari
           </div>
           <div class="social-links">
             <i class="fa-brands fa-square-facebook"></i>
@@ -34,7 +34,7 @@ export default{
   
 <style lang="scss">
 .footer {
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.15);
     color: #fff;
     padding: 20px 0;
     text-align: center;

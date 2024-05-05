@@ -96,4 +96,12 @@ export default {
 
 <style lang="scss">
 
+.form-control{
+    background-color: #071952;
+}
+
+.btn{
+    background-color: #071952;
+}
+
 </style>

@@ -21,7 +21,7 @@ export default{
 
 <template>
     
-    <div class="card pt-3 px-3">
+    <div class="card pt-3 px-3 border-0">
         <div class="image">
             <img :src="'http://localhost:8000/storage/' + project.preview" class="card-img-top" alt="...">
         </div>
@@ -37,12 +37,16 @@ export default{
 
 <style lang="scss">
     .card {
-        width: 20%;
+        aspect-ratio: 3 / 2;
+        max-width: 600px;
+
+        background: rgb(7,25,82);
+        background: radial-gradient(circle, rgba(53,162,159,1) 0%, rgba(11,102,106,1) 35%, rgba(7,25,82,1) 100%);
     }
 
     .image {
-        width: 100%;
-        height: 150px;
+        // width: 100%;
+        // height: 300px;
         display: flex; 
     }
 
